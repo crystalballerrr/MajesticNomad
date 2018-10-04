@@ -1,0 +1,253 @@
+
+/*style below*/
+body {
+	background: #2ea3f2;
+	margin: 0;
+	padding: 0;
+}
+header, nav, section, footer {
+	background-color: #f4f4f4;
+}
+header, footer {
+	width: 100%;
+}	
+header {
+	height: 128px;
+	position: sticky;
+	top: 0;
+	border-bottom: solid 2px rgb(71, 71, 71, 0.1);
+	}
+img[src="images/mj-logo.png"] {
+	width: 20%;
+	position: relative;
+	top: -40px;
+	min-width: 200px;
+}
+nav a, footer a {
+	text-decoration: none;
+	text-align: center;
+	color: #2ea3f2;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a {
+	font-weight: bold;
+}
+nav {
+	margin-top: -130px;
+	margin-left: 650px;
+	width: 50%;
+	position: relative;
+}
+nav li {
+	display: inline;
+	padding: 20px;
+}
+main {
+	margin: 0;
+	padding: 0;
+}
+section {
+	width: 88.955%;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 1.1875em;
+	padding: 10px 0 50px 0;
+	margin: 0 auto 0 auto;
+}
+section h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.5625em;
+	text-align: center;
+	margin: 30px 190px 30px 10px;
+	padding: 10px 40px 10px 10px;
+	color: #5791c1;
+	text-shadow: 1px 1px 1px rgb(71, 71, 71, 0.5);
+}
+section h2 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.175em;
+	text-align: center;
+	padding: 10px 0 40px 0;
+	color: #5791c1;
+	position: relative;
+	text-shadow: 1px 1px 1px rgb(71, 71, 71, 0.5);
+}
+section h3 {
+	font: bold 1em 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #474747;
+	text-align: center;
+}
+section h4 {
+	font: lighter 1em 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #474747;
+	text-align: center;
+}
+img[src="images/about-me-pic-1.jpg"] {
+	float: left;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	border-radius: 15px;
+	border-bottom: solid 2px #2ea3f2;
+	border-right: solid 2px  #2ea3f2;
+	min-width: 200px;
+}
+section p {
+	color: #474747;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	text-align: justify;
+	padding: 10px 0 30px 0;
+	line-height: 2;
+	margin: auto;
+	width: 70%;
+}
+img[src="images/samantha-sig.png"] {
+	width: 50%;
+	margin-left: 25%;
+	min-width: 300px;
+}
+	
+footer {
+	margin: 0;
+	padding: 10px 0 0 0;
+	border-top: solid 2px rgb(71, 71, 71, 0.1);
+	color: #474747;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	height: 80%;
+}
+footer p {
+	text-align: center;
+}
+.privacy {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 0.5%;
+}
+.credits {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 0.5%;
+}
+/*media queries below*/
+/*1200px*/
+@media (max-width: 1200px) {
+	nav {
+		margin-top: -110px;
+		margin-left: 23%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		width: 23%;
+		margin-top: -10px;
+		margin-left: 39%;
+	}
+}
+/*1024*/
+@media (max-width: 1024px) {
+	nav {
+		margin-top: -90px;
+		margin-left: 16.5%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		margin-top: 0;
+		margin-left: 39%;
+		min-width: 200px;
+	}
+}
+/*900*/
+@media (max-width: 900px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 14%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		margin-top: 10px;
+	}
+	img[src="images/about-me-pic-1.jpg"] {
+		float: none;
+		margin-left: 30%;
+		margin-right: 5%;
+		border-radius: 15px;
+		border-bottom: solid 2px #2ea3f2;
+		border-right: solid 2px  #2ea3f2;
+	}
+	.main-about p {
+		color: #474747;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		text-align: justify;
+		line-height: 2;
+		padding: 0 5% 0 5%;
+	}
+	section h1 {
+		margin-left: 30%;
+	}
+}
+/*768*/
+@media (max-width: 768px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 7%;
+		width: 90%;
+	} 
+	section h3 {
+		width: 85%;
+		margin-left: 8%;
+	}
+	section h1 {
+		width: 70%;
+		margin-left: 16%;
+}
+@media (max-width: 720px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 2%;
+		width: 90%;
+	}
+	section h1 {
+		width: 70%;
+		margin-left: 14%;
+	}
+	img[src="images/about-me-pic-1.jpg"] {
+		margin-left: 28%;
+	}
+}
+@media (max-width: 480px) {
+	nav {
+		margin-top: -100px;
+		margin-left: -10px;
+		width: 100%;
+		text-align: center;
+	}
+	nav a {
+		padding-bottom: 5px;
+	}
+	img[src="images/mj-logo.png"] {
+		margin-left: 26%;
+	}
+	img[src="images/about-me-pic-1.jpg"] {
+		float: centers;
+		margin-left: 13%;
+		margin-right: 5%;
+		border-radius: 15px;
+		border-bottom: solid 2px #2ea3f2;
+		border-right: solid 2px  #2ea3f2;
+		min-width: 200px;
+	}
+	section h1 {
+		margin-left: 12%;
+	}
+	img[src="images/samantha-sig.png"] {
+		margin-left: 10%;
+	}
+}

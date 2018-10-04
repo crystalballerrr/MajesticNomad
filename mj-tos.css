@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*MASTER RESET*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*style below*/
+body {
+	background: #2ea3f2;
+	overflow-x: hidden;
+}
+nav {
+	background-color: #f2f2f2;
+	height: 145px;
+	box-shadow: 3px 0 3px 0 rgb(0, 0, 0, 0.5);
+}	
+img[src="images/MN-Logo-Transparent.png"] {
+	height: 250px;
+	margin-left: 10px;
+	margin-top: -50px;
+	margin-bottom: 5px;
+}
+.majesticheader {
+	visibility: none;
+	opacity: 0;
+}
+.menu {
+	margin: -150px 35px 20px 740px;
+	padding-right: 20px;
+}
+li {
+	display: inline;
+}
+a {
+	text-decoration: none;
+	color: #2ea3f2;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	padding: 15px;
+}
+.main-image {
+	background-color: #f2f2f2;
+	max-width: 1200px;
+	position: relative;
+	margin: auto;
+	padding-bottom: 50px;
+}
+section {
+	background-color: #f2f2f2;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 1.1875em;
+	max-width: 1200px;
+	margin: auto;
+	margin-bottom:
+	position: relative;
+	top: -40px;
+	bottom: -20px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+section h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 2.875em;
+	text-align: center;
+	padding: 10px 0 40px 0;
+	color: #5791c1;
+	margin: auto;
+	position: relative;
+	top: -330px;
+	left: 120px;
+	text-shadow: 1px 1px 1px rgb(71, 71, 71, 0.5);
+}
+section h3 {
+	font: bold 1em 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #474747;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+}
+section h4 {
+	font: lighter 1em 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #474747;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	padding: 10px 0 30px 0;
+}
+section p {
+	color: #474747;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	text-align: justify;
+	padding: 10px 0 30px 0;
+	line-height: 2;
+	position: relative;
+	top: -330px;
+	left: 170px;
+	margin: auto;
+	width: 700px;
+}
+	
+footer {
+	padding-bottom: 10px;
+	height: 65px;
+	top: 10px;
+	background-color: #f2f2f2;
+	box-shadow: -3px 0 3px 0 rgb(0, 0, 0, 0.5)
+}
+footer p {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 0.875em;
+}
+.copyright {
+	position: relative;
+	top: 30px;
+	left: 20px;
+	margin: auto;
+}
+.privacy {
+	position: relative;
+	margin: auto;
+	top: 10px;
+	left: 520px;
+}
+.credits {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 0.875em;
+	position: relative;
+	margin: auto;
+	top: -10px;
+	left: 1070px;
+}

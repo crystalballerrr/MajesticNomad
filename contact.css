@@ -1,0 +1,276 @@
+/*style below*/
+body {
+	background: #2ea3f2;
+	margin: 0;
+	padding: 0;
+}
+header, nav, section, footer {
+	background-color: #f4f4f4;
+}
+header, footer {
+	width: 100%;
+}	
+header {
+	height: 128px;
+	position: sticky;
+	top: 0;
+	border-bottom: solid 2px rgb(71, 71, 71, 0.1);
+	}
+img[src="images/mj-logo.png"] {
+	width: 20%;
+	position: relative;
+	top: -40px;
+}
+nav a, footer a {
+	text-decoration: none;
+	text-align: center;
+	color: #2ea3f2;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a {
+	font-weight: bold;
+}
+nav {
+	margin-top: -130px;
+	margin-left: 650px;
+	width: 50%;
+	position: relative;
+}
+nav li {
+	display: inline;
+	padding: 20px;
+}
+main {
+	margin: 0;
+	padding: 0;
+}
+section {
+	width: 88.955%;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 1.1875em;
+	padding: 0 0 50px 0;
+	margin: auto auto 0px auto;
+}
+section h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.5625em;
+	text-align: center;
+	padding: 10px 0 40px 0;
+	color: #5791c1;
+	margin: auto;
+	text-shadow: 1px 1px 1px rgb(71, 71, 71, 0.5);
+}
+section h3 {
+	font: bold 1em 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #474747;
+	padding: 10px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+}
+section h4 {
+	font: lighter 1em 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #474747;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	padding: 10px 0 30px 0;
+}
+section ul {
+	position: relative;
+	left: 400px;
+	margin: auto;
+	padding-bottom: 50px;
+}
+section li {
+	display: block;
+	padding: 20px 10px;
+	text-align: justify;
+	position: relative;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+}
+section li img {
+	width: 80px;
+	padding: 5px 30px 10px 0;
+	position: relative;
+	top: 40px;
+	bottom: 20px;
+	
+}
+
+/*mailchimp form*/
+#mailchimp {
+	background: #f2f2f2;
+	color: #2ea3f2;
+	padding: 20px 15px;
+	margin-left: 400px;
+	width: 500px;
+}
+#mailchimp input {
+	border: medium none;
+    color: #474747;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin: auto 10px;
+	text-align: center;
+    padding: 10px 10px;
+    width: 300px;
+	border: 1px solid rgb(71, 71, 71, 0.3);
+		border-radius: 15px;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+}
+#mailchimp p {
+	padding: 15px;
+}
+#mailchimp input.email { 
+	background: #fff;
+	padding: 10px;
+	border: 1px solid rgb(71, 71, 71, 0.3);
+	}
+#mailchimp input.name { 
+	background: #fff;
+	padding: 5px;
+	text-align: center;
+	}
+#mailchimp input[type="submit"] {
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 0.9375em;
+	margin: 20px 0 0 40px;
+	padding: 10px 10px;
+	max-width: 250px;
+	max-height: 70px;
+	background-color: #2ea3f2;
+	border-radius: 10px;
+	border-right: solid 2px #b2b2b2;
+	border-bottom: solid 2px #b2b2b2;
+}
+/*end mailchimp form*/
+footer {
+	margin: 0;
+	padding: 10px 0 0 0;
+	border-top: solid 2px rgb(71, 71, 71, 0.1);
+	color: #474747;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	height: 80%;
+}
+footer p {
+	text-align: center;
+}
+.privacy {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 0.5%;
+}
+.credits {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 0.5%;
+}
+/*media queries below*/
+/*1200px*/
+@media (max-width: 1200px) {
+	nav {
+		margin-top: -110px;
+		margin-left: 23%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		width: 23%;
+		margin-top: -10px;
+		margin-left: 39%;
+	}
+}
+/*1024*/
+@media (max-width: 1024px) {
+	nav {
+		margin-top: -90px;
+		margin-left: 16.5%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		margin-top: 0;
+		margin-left: 39%;
+		min-width: 200px;
+	}
+	#mailchimp {
+	margin-left: 200px;
+	width: 50%;
+	}
+}
+/*900*/
+@media (max-width: 900px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 14%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		margin-top: 10px;
+	}
+	img[src="images/about-me-pic-1.jpg"] {
+		float: none;
+		margin-left: 30%;
+		margin-right: 5%;
+		border-radius: 15px;
+		border-bottom: solid 2px #2ea3f2;
+		border-right: solid 2px  #2ea3f2;
+		min-width: 300px;
+	}
+	.main-about p {
+		color: #474747;
+		font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+		font-weight: 100;
+		text-align: justify;
+		line-height: 2;
+		padding: 0 5% 0 5%;
+	}
+}
+/*768*/
+@media (max-width: 768px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 7%;
+		width: 90%;
+	} 
+	section h3 {
+		width: 85%;
+		margin-left: 8%;
+	}
+	#mailchimp {
+	margin-left: 20%;
+	width: 50%;
+	}
+}
+@media (max-width: 720px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 2%;
+		width: 90%;
+	}
+}
+@media (max-width: 480px) {
+	nav {
+		margin-top: -100px;
+		margin-left: -10px;
+		width: 100%;
+		text-align: center;
+	}
+	nav a {
+		padding-bottom: 5px;
+	}
+#mailchimp {
+	margin-left: 5%;
+	width: 30%;
+	}
+	
+}

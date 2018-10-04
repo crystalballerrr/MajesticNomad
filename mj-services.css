@@ -1,0 +1,257 @@
+
+
+/*style below*/
+body {
+	background: #2ea3f2;
+	margin: 0;
+	padding: 0;
+}
+header, nav, section, footer {
+	background-color: #f4f4f4;
+}
+header, footer {
+	width: 100%;
+}	
+header {
+	height: 128px;
+	position: sticky;
+	top: 0;
+	border-bottom: solid 2px rgb(71, 71, 71, 0.1);
+	}
+img[src="images/mj-logo.png"] {
+	width: 20%;
+	position: relative;
+	top: -40px;
+}
+nav a, footer a {
+	text-decoration: none;
+	text-align: center;
+	color: #2ea3f2;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a {
+	font-weight: bold;
+}
+nav {
+	margin-top: -130px;
+	margin-left: 650px;
+	width: 50%;
+	position: relative;
+}
+nav li {
+	display: inline;
+	padding: 20px;
+}
+main {
+	margin: 0;
+	padding: 0;
+}
+section {
+	width: 88.955%;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	font-size: 1.1875em;
+	padding: 10px 0 50px 0;
+	margin: auto auto 0px auto;
+}
+section h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.5625em;
+	text-align: center;
+	padding: 10px 0 40px 0;
+	color: #5791c1;
+	text-shadow: 1px 1px 1px rgb(71, 71, 71, 0.5);
+}
+section h2 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.175em;
+	text-align: center;
+	padding: 10px 0 40px 0;
+	color: #5791c1;
+	text-shadow: 1px 1px 1px rgb(71, 71, 71, 0.5);
+}
+section h3 {
+	font: bold 1em 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #474747;
+	text-align: center;
+}
+section h4 {
+	font: lighter 1em 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #474747;
+	text-align: center;
+}
+section li {
+	display: block;
+	text-align: justify;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: lighter;
+	padding: 0;
+}
+.va a {
+	text-decoration: none;
+	text-align: center;
+	color: #2ea3f2;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin-left: 31%;
+}
+.services1, .services2, .services3 {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	padding: 15px 5px 5px 0;
+	text-align: center;
+}
+.services1 img, .services2 img, .services3 img {
+	max-width: 300px;
+	min-width: 138px;
+}
+.services1 img {
+	width: 23%;
+	padding: 5px;
+	margin-left: 40px;
+}
+.services3 img {
+	width: 23%;
+	padding: 5px;
+}
+.smm {
+	padding-top: 70px;
+}
+.smm a {
+	text-decoration: none;
+	text-align: center;
+	color: #2ea3f2;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.socialmedia {
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+}
+.socialmedia img {
+	max-width: 800px;
+	min-width: 300px;
+	border-radius: 15px;
+	margin: auto;
+}
+footer {
+	margin: 0;
+	padding: 10px 0 0 0;
+	border-top: solid 2px rgb(71, 71, 71, 0.1);
+	color: #474747;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	height: 80%;
+}
+footer p {
+	text-align: center;
+}
+.privacy {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 0.5%;
+}
+.credits {
+	margin: auto;
+	text-align: center;
+	padding-bottom: 0.5%;
+}
+
+/*media queries below*/
+/*1200px*/
+@media (max-width: 1200px) {
+	nav {
+		margin-top: -110px;
+		margin-left: 23%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		width: 23%;
+		margin-top: -10px;
+		margin-left: 39%;
+	}
+}
+/*1024*/
+@media (max-width: 1024px) {
+	nav {
+		margin-top: -90px;
+		margin-left: 16.5%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		margin-top: 0;
+		margin-left: 39%;
+		min-width: 200px;
+	}
+}
+/*900*/
+@media (max-width: 900px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 14%;
+		width: 70%;
+	} 
+	img[src="images/mj-logo.png"] {
+		margin-top: 10px;
+	}
+	.socialmedia img {
+		width: 50%;
+	}
+	.va a {
+	margin-left: 20%;
+}
+	
+}
+/*768*/
+@media (max-width: 768px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 7%;
+		width: 90%;
+	} 
+	section h3 {
+		width: 85%;
+		margin-left: 8%;
+	}
+	.va a {
+		margin-left: 15%;
+	}
+}
+@media (max-width: 720px) {
+	nav {
+		margin-top: -80px;
+		margin-left: 2%;
+		width: 90%;
+	}
+}
+@media (max-width: 480px) {
+	nav {
+		margin-top: -100px;
+		margin-left: -10px;
+		width: 100%;
+		text-align: center;
+	}
+	nav a {
+		padding-bottom: 5px;
+	}
+	img[src="images/mj-logo.png"] {
+		margin-left: 26%;
+	}
+	.va a {
+		margin-left: 10%;
+		width: 100%;
+	}
+}
